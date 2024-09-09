@@ -1,0 +1,75 @@
+/* Styles for the entire page background */
+.page-background {
+    background-image: url('https://wallpapers.com/images/featured/workout-tbx6fzhe2jsty564.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Ensure it covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container for the page content */
+.content-container {
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust as needed */
+}
+
+/* Table styles */
+.workout-table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.workout-table thead {
+    background: linear-gradient(135deg, #f2f2f2, #ffffff);
+    color: #333;
+}
+
+.workout-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.workout-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.workout-table tbody tr {
+    transition: background 0.3s;
+}
+
+.workout-table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.workout-table tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.workout-table tbody tr td {
+    border-top: none;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.workout-table .btn {
+    margin: 0 5px;
+}
